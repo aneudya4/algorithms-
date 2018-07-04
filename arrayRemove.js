@@ -6,8 +6,7 @@
 // If a value is present in b, all of its occurrences must be removed from the other:
 
 function array_diff(a, b) {
-  let newArr = []
-  if(a.length === 0 ){
+ if(a.length === 0 ){
     return a
   }
   for (var i = 0; i < b.length; i++) {
